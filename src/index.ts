@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 async function init() {
-    const PORT = Number(process.env.PORT) || 7000;
+const PORT = Number(process.env.PORT) || 7000;
 const app = express();
 
 app.use(express.json());
